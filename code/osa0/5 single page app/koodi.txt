@@ -1,0 +1,20 @@
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+palvelin->selain: HTML Koodi
+note over selain:
+HTML -koodista käy selville,
+että tarvitaan main.css ja spa.js
+end note
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+palvelin-->selain: main.css
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa.js
+palvelin-->selain: spa.js
+note over selain:
+spa.js koodia ajaessa tulee
+vastaan GET pyyntö datalle
+end note
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+palvelin-->selain: notet json tiedostossa
+note over selain:
+js-koodi tuottaa datan
+käyttäjälle
+end note

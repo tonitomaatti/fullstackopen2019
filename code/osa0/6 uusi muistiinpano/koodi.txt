@@ -1,0 +1,11 @@
+note over selain:
+Käyttäjä luo uuden noten:
+- spa.js tapahtumankäsittelijä aktivoituu
+- normaali lähetys estetään
+- uusi note luodaan
+- note tallennetaan taulukkoon
+- note taulukko piirretään uudelleen
+- lähetetään note palvelimelle
+end note
+selain->palvelin: HTTP POST http://fullstack-exampleapp.herokuapp.com/new_note_spa
+palvelin->selain: Response: 201 created
