@@ -1,3 +1,1 @@
 - poista node_moduuleita ja testaa git
-- unicafe: table error
-- kurssitiedot: tarkasta ettei consolessa ollut virheitä
