@@ -1,0 +1,2 @@
+- poista node_moduuleita ja testaa git
+- unicafe: table error
