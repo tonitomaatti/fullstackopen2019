@@ -1,0 +1,4 @@
+npx create-react-app part1
+npm start
+
+npm install
